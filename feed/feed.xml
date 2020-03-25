@@ -13,9 +13,9 @@
   
   <entry>
     <title>White Zombie - More Human Than Human</title>
-    <link href="/circleci-11ty/lyrics/white-zombie-more-human-than-human/"/>
+    <link href="/manual-11ty/lyrics/white-zombie-more-human-than-human/"/>
     <updated>2019-07-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/white-zombie-more-human-than-human/</id>
+    <id>/manual-11ty/lyrics/white-zombie-more-human-than-human/</id>
     <content type="html">&lt;p&gt;Yeah I am the nexus one I want more life&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;I am the jigsaw man&lt;br&gt;
@@ -27,17 +27,17 @@ And I eat it some more&lt;/p&gt;
   
   <entry>
     <title>Disturbed - Stupify</title>
-    <link href="/circleci-11ty/lyrics/disturbed-stupify/"/>
+    <link href="/manual-11ty/lyrics/disturbed-stupify/"/>
     <updated>2018-09-13T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/disturbed-stupify/</id>
+    <id>/manual-11ty/lyrics/disturbed-stupify/</id>
     <content type="html">&lt;p&gt;Look in my face, stare in my soul&lt;/p&gt;
 &lt;!--more--&gt;
-&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/circleci-11ty/assets/images/adverts/oto-spies-01.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/manual-11ty/assets/images/adverts/oto-spies-01.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Why, do you like playing around with&lt;br&gt;
 My, narrow scope of reality&lt;br&gt;
 I, can feel it all start slipping&lt;br&gt;
 I think I&#39;m breaking down&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/circleci-11ty/assets/images/adverts/oto-spies-02.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;advertisement&quot; src=&quot;/manual-11ty/assets/images/adverts/oto-spies-02.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Look in my face, stare into my soul&lt;br&gt;
 I begin to stupify&lt;/p&gt;
 </content>
@@ -45,9 +45,9 @@ I begin to stupify&lt;/p&gt;
   
   <entry>
     <title>Soulfly - Jump Da Fuck Up</title>
-    <link href="/circleci-11ty/lyrics/soulfly-jump-da-fuck-up/"/>
+    <link href="/manual-11ty/lyrics/soulfly-jump-da-fuck-up/"/>
     <updated>2018-09-07T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/soulfly-jump-da-fuck-up/</id>
+    <id>/manual-11ty/lyrics/soulfly-jump-da-fuck-up/</id>
     <content type="html">&lt;p&gt;You seem to sever all my frequencies&lt;br&gt;
 I&#39;m tethered to your energies&lt;/p&gt;
 &lt;!--more--&gt;
@@ -63,9 +63,9 @@ Will you reach out if you can&#39;t resist?&lt;/p&gt;
   
   <entry>
     <title>RATM - Bulls on Parade</title>
-    <link href="/circleci-11ty/lyrics/ratm-bulls-on-parade/"/>
+    <link href="/manual-11ty/lyrics/ratm-bulls-on-parade/"/>
     <updated>2018-02-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/ratm-bulls-on-parade/</id>
+    <id>/manual-11ty/lyrics/ratm-bulls-on-parade/</id>
     <content type="html">&lt;p&gt;Weapons, not food, not homes, not shoes&lt;br&gt;
 Not need, just feed the war cannibal animal&lt;/p&gt;
 &lt;!--more--&gt;
@@ -81,21 +81,21 @@ Not need, just feed the war cannibal animal&lt;/p&gt;
 &lt;p&gt;Rally round tha family, pocket full of shells&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/circleci-11ty/assets/images/adverts/one-page.png&quot; alt=&quot;Business Card&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/manual-11ty/assets/images/adverts/one-page.png&quot; alt=&quot;Business Card&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Example Dotfiles&lt;/h3&gt;
 &lt;p&gt;ViM RC: &lt;a href=&quot;https://gitlab.com/epsi-rns/dotfiles/tree/master/terminal/vimrc/vimrc.bandithijo&quot;&gt;bandithijo&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;What&#39;s next ?&lt;/h3&gt;
-&lt;p&gt;Our next song would be &lt;a href=&quot;/circleci-11ty/lyrics/soulfly-jump-da-fuck-up/&quot;&gt;Soulfly - Jump Da Fuck Up&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Our next song would be &lt;a href=&quot;/manual-11ty/lyrics/soulfly-jump-da-fuck-up/&quot;&gt;Soulfly - Jump Da Fuck Up&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>House of Pain - Jump Around</title>
-    <link href="/circleci-11ty/lyrics/house-of-pain-jump-around/"/>
+    <link href="/manual-11ty/lyrics/house-of-pain-jump-around/"/>
     <updated>2018-01-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/house-of-pain-jump-around/</id>
+    <id>/manual-11ty/lyrics/house-of-pain-jump-around/</id>
     <content type="html">&lt;p&gt;Pack it up, pack it in, let me begin&lt;br&gt;
 I came to win, battle me that&#39;s a sin&lt;/p&gt;
 &lt;!--more--&gt;
@@ -109,9 +109,9 @@ If you&#39;ve got the feeling, jump across the ceiling&lt;/p&gt;
   
   <entry>
     <title>Every Day</title>
-    <link href="/circleci-11ty/quotes/every-day/"/>
+    <link href="/manual-11ty/quotes/every-day/"/>
     <updated>2015-10-03T15:08:15+07:00</updated>
-    <id>/circleci-11ty/quotes/every-day/</id>
+    <id>/manual-11ty/quotes/every-day/</id>
     <content type="html">&lt;p&gt;I&#39;ve been thinking about this
 over and over and over.&lt;/p&gt;
 &lt;!--more--&gt; 
@@ -135,9 +135,9 @@ and not be able to explain to anyone?&lt;/p&gt;
   
   <entry>
     <title>Marilyn Manson - Redeemer</title>
-    <link href="/circleci-11ty/lyrics/marylin-manson-redeemer/"/>
+    <link href="/manual-11ty/lyrics/marylin-manson-redeemer/"/>
     <updated>2015-07-25T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/marylin-manson-redeemer/</id>
+    <id>/manual-11ty/lyrics/marylin-manson-redeemer/</id>
     <content type="html">&lt;p&gt;Nothing seems exciting, always the same hiding
 It&#39;s haunting me&lt;/p&gt;
 &lt;!--more--&gt;
@@ -149,9 +149,9 @@ I can&#39;t bare, I cannot tame the hunger in me.&lt;/p&gt;
   
   <entry>
     <title>Marilyn Manson - Sweet Dreams</title>
-    <link href="/circleci-11ty/lyrics/eurythmics-sweet-dreams/"/>
+    <link href="/manual-11ty/lyrics/eurythmics-sweet-dreams/"/>
     <updated>2015-07-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/eurythmics-sweet-dreams/</id>
+    <id>/manual-11ty/lyrics/eurythmics-sweet-dreams/</id>
     <content type="html">&lt;p&gt;Sweet dreams are made of this&lt;br&gt;
 Who am I to disagree?&lt;/p&gt;
 &lt;p&gt;Travel the world and the seven seas&lt;br&gt;
@@ -166,9 +166,9 @@ Some of them want to be abused&lt;/p&gt;
   
   <entry>
     <title>Onyx - Slam</title>
-    <link href="/circleci-11ty/lyrics/onyx-slam/"/>
+    <link href="/manual-11ty/lyrics/onyx-slam/"/>
     <updated>2015-05-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/onyx-slam/</id>
+    <id>/manual-11ty/lyrics/onyx-slam/</id>
     <content type="html">&lt;p&gt;Let the boys be boys&lt;br&gt;
 Make noise b-boys&lt;/p&gt;
 &lt;!--more--&gt;
@@ -181,9 +181,9 @@ I&#39;m an inspiration of a whole generation&lt;/p&gt;
   
   <entry>
     <title>Deftones - Be Quiet and Drive</title>
-    <link href="/circleci-11ty/lyrics/deftones-be-quiet-and-drive/"/>
+    <link href="/manual-11ty/lyrics/deftones-be-quiet-and-drive/"/>
     <updated>2015-03-25T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/deftones-be-quiet-and-drive/</id>
+    <id>/manual-11ty/lyrics/deftones-be-quiet-and-drive/</id>
     <content type="html">&lt;p&gt;This town don&#39;t feel mine&lt;br&gt;
 I&#39;m fast to get away, far&lt;/p&gt;
 &lt;!--more--&gt;
@@ -197,9 +197,9 @@ Just far away I don&#39;t care&lt;/p&gt;
   
   <entry>
     <title>Scott Pilgrim vs The World</title>
-    <link href="/circleci-11ty/quotes/scott-pilgrim/"/>
+    <link href="/manual-11ty/quotes/scott-pilgrim/"/>
     <updated>2015-01-02T00:35:15+07:00</updated>
-    <id>/circleci-11ty/quotes/scott-pilgrim/</id>
+    <id>/manual-11ty/quotes/scott-pilgrim/</id>
     <content type="html">&lt;p&gt;Did you know that the original name for Pac-Man was Puck-Man?&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;You&#39;d think it was because he looks like a hockey puck
@@ -214,9 +214,9 @@ and turn it into an F or whatever.&lt;/p&gt;
   
   <entry>
     <title>Jerry Maguire</title>
-    <link href="/circleci-11ty/quotes/jerry-maguire/"/>
+    <link href="/manual-11ty/quotes/jerry-maguire/"/>
     <updated>2015-01-02T00:35:15+07:00</updated>
-    <id>/circleci-11ty/quotes/jerry-maguire/</id>
+    <id>/manual-11ty/quotes/jerry-maguire/</id>
     <content type="html">&lt;p&gt;You had me at Hello.&lt;/p&gt;
 &lt;!--more--&gt;
 </content>
@@ -224,9 +224,9 @@ and turn it into an F or whatever.&lt;/p&gt;
   
   <entry>
     <title>Fight Club</title>
-    <link href="/circleci-11ty/quotes/fight-club/"/>
+    <link href="/manual-11ty/quotes/fight-club/"/>
     <updated>2015-01-01T20:08:15+07:00</updated>
-    <id>/circleci-11ty/quotes/fight-club/</id>
+    <id>/manual-11ty/quotes/fight-club/</id>
     <content type="html">&lt;p&gt;You are &lt;strong&gt;not&lt;/strong&gt; special.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;You&#39;re &lt;strong&gt;not&lt;/strong&gt; a beautiful and unique snowflake.&lt;br&gt;
@@ -238,9 +238,9 @@ We&#39;re &lt;strong&gt;all&lt;/strong&gt; singing, all dancing crap of the worl
   
   <entry>
     <title>Dead Poet Society</title>
-    <link href="/circleci-11ty/quotes/dead-poets-society/"/>
+    <link href="/manual-11ty/quotes/dead-poets-society/"/>
     <updated>2015-01-01T15:15:15+07:00</updated>
-    <id>/circleci-11ty/quotes/dead-poets-society/</id>
+    <id>/manual-11ty/quotes/dead-poets-society/</id>
     <content type="html">&lt;p&gt;So avoid using the word &lt;strong&gt;very&lt;/strong&gt; because it&#39;s lazy.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;A man is not very tired, he is exhausted.&lt;br&gt;
@@ -254,9 +254,9 @@ It also won’t do in your essays&lt;/p&gt;
   
   <entry>
     <title>Soundgarden - Black Hole Sun</title>
-    <link href="/circleci-11ty/lyrics/soundgarden-black-hole-sun/"/>
+    <link href="/manual-11ty/lyrics/soundgarden-black-hole-sun/"/>
     <updated>2014-03-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/soundgarden-black-hole-sun/</id>
+    <id>/manual-11ty/lyrics/soundgarden-black-hole-sun/</id>
     <content type="html">&lt;p&gt;In my eyes, indisposed&lt;br&gt;
 In disguises no one knows&lt;/p&gt;
 &lt;!--more--&gt;
@@ -267,9 +267,9 @@ Steal the warm wind tired friend&lt;/p&gt;
   
   <entry>
     <title>Public Enemy - Bring The Noise</title>
-    <link href="/circleci-11ty/lyrics/public-enemy-bring-the-noise/"/>
+    <link href="/manual-11ty/lyrics/public-enemy-bring-the-noise/"/>
     <updated>2014-01-15T14:35:05+07:00</updated>
-    <id>/circleci-11ty/lyrics/public-enemy-bring-the-noise/</id>
+    <id>/manual-11ty/lyrics/public-enemy-bring-the-noise/</id>
     <content type="html">&lt;p&gt;Bass! How low can you go?&lt;br&gt;
 Death row, what a brother knows&lt;br&gt;
 Once again, back is the incredible&lt;/p&gt;
@@ -283,9 +283,9 @@ Yeah, I&#39;m telling you&lt;/p&gt;
   
   <entry>
     <title>Surviving White Winter</title>
-    <link href="/circleci-11ty/posts/winter/"/>
+    <link href="/manual-11ty/posts/winter/"/>
     <updated>2014-01-01T15:08:15+07:00</updated>
-    <id>/circleci-11ty/posts/winter/</id>
+    <id>/manual-11ty/posts/winter/</id>
     <content type="html">&lt;p&gt;It was a frozen winter in cold war era.
 We were two lazy men, a sleepy boy, two long haired women,
 a husky with attitude, and two shotguns.
