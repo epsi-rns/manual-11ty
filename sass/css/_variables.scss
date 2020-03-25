@@ -1,0 +1,44 @@
+// 1. Colors
+// =====================================================================
+
+$brand-red:  #802020;
+$brand-gray: #404040;
+
+$primary-color: $brand-red;
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+
+$secondary-color: $brand-gray;
+
+.primary {
+  background-color: $brand-red;
+}
+
+.secondary {
+  background-color: $brand-gray;
+}
+
+
+// 12. Grid
+// =====================================================================
+
+$gutter-width: 0rem;
+
+// 11. Global
+// =====================================================================
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+
+// 20. Typography
+// ==========================================================================
+
+// Header Styles
+$h1-fontsize: 3.56rem !default;
+$h2-fontsize: 2.92rem !default;
+$h3-fontsize: 2.28rem !default;
+$h4-fontsize: 1.64rem !default;
+$h5-fontsize: 1.35rem !default;
+$h6-fontsize: 1.15rem !default;

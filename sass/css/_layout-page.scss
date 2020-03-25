@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.layout-inner {
+  flex: 1 0 auto;
+  padding-top: 2rem;
+}
+
+// maxwidth related
+
+.maxwidth {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1346px; // 1366 - 10 -10
+}
+
+nav.maxwidth {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+.footer {
+  padding-top: 20px;
+}

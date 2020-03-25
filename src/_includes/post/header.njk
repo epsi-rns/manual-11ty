@@ -1,0 +1,41 @@
+
+  <div class="main_title"> 
+    <h4 class="blog-post-title" itemprop="name headline">
+      <a href="{{ page.url | url }}">
+        {{ renderData.title or title or metadata.title }}
+      </a></h4>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <div class="blog-post-meta">
+    {% if (author or metadata.author) %}
+    <div class="left meta_author">
+      <span class="new indigo badge z-depth-1 hoverable m-b-5"
+        data-badge-caption="">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ author or metadata.author }}</span></span>
+      </span>
+      &nbsp;
+    </div>
+    {% endif %}
+
+    <div class="left meta-time">
+      <span class="new green badge z-depth-1 hoverable m-b-5"
+        data-badge-caption="">{% include "post/time-elapsed.njk" %}</span>
+      &nbsp;
+    </div>
+
+    <div class="right">
+    {% for tag in tags %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}">
+        <span class="new teal badge z-depth-1 hoverable m-b-5"
+          data-badge-caption="">{{ tag }}</span>
+      </a>
+    {% endfor %}
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+

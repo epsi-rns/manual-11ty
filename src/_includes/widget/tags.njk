@@ -1,0 +1,20 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'deep-orange' %}
+
+{% block widget_header %}
+  <strong>Tags</strong>
+  <i class="material-icons right">local_offer</i>
+{% endblock %}
+
+{% block widget_body %}
+  {%- for tag in collections.tagList -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+    <a href="{{ tagUrl | url }}">
+    <span class="new {{ color }} badge z-depth-1 hoverable m-b-5"
+          data-badge-caption="">{{ tag }}</span>
+    </a>
+  {%- endfor -%}
+  
+  <div class="clearfix"></div>
+{% endblock %}

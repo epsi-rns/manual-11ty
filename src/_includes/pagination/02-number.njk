@@ -1,0 +1,81 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.cursor + 1 %}
+
+{% if totalPages > 1 %}
+  <ul class="pagination">  
+    <!-- First Page. -->    
+    {% if current  > 1 %}
+      <li class="waves-effect">
+        <a href="{{ pagination.firstPageLink }}" rel="first"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">first_page</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the first page">
+          <i class="material-icons">first_page</i>
+      </a></li>
+    {% endif %}
+
+    <!-- Previous Page. -->
+    {% if pagination.previousPageLink %}
+      <li class="waves-effect">
+        <a href="{{ pagination.previousPageLink }}" rel="prev"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">chevron_left</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the first page">
+        <i class="material-icons">chevron_left</i>
+      </a></li>
+    {% endif %}
+
+    <!-- Page numbers. -->
+    {% for cursor, link in pagination.links | hashIt %}
+      {% if cursor != current  %}
+      <li class="waves-effect">
+        <a href="{{ link }}"
+           aria-label="Goto page {{ cursor }}"
+           class="{{ color }}-text text-darken-2">
+          {{ cursor }}
+        </a>
+      </li>
+      {% else %}
+      <li class="active {{ color }}">
+        <a aria-label="Page {{ cursor }}">
+          {{ cursor }}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Next Page. -->
+    {% if pagination.nextPageLink %}
+      <li class="waves-effect">
+        <a href="{{ pagination.nextPageLink }}" rel="next"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">chevron_right</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the last page">
+          <i class="material-icons">chevron_right</i>
+      </a></li>
+    {% endif %}
+
+    <!-- Last Page. -->
+    {% if current != totalPages %}
+      <li class="waves-effect">
+        <a href="{{ pagination.lastPageLink }}" rel="last"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">last_page</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the last page">
+          <i class="material-icons">last_page</i>
+      </a></li>
+    {% endif %}
+  </ul>
+{% endif %}

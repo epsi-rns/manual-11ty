@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "site/head.njk" %}
+  {% block custom_stylesheet %}{% endblock %}
+</head>
+<body class="white grey-text text-darken-4">
+{# include "service/google-analytics.html" #}
+{% include "site/header.njk" %}
+
+{% block general %}
+  <!-- inner layout -->
+  <div class="layout-inner">
+  <div class="row maxwidth">
+    {% block main %}
+    {{ content | safe }}
+    {% endblock %}
+
+    {% block aside %}{% endblock %}
+  </div></div>
+{% endblock %}
+
+{% include "site/footer.njk" %}
+{% include "site/scripts.njk" %}
+</body>
+</html>

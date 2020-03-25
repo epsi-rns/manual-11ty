@@ -1,0 +1,28 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'lime' %}
+
+{% block widget_header %}
+  <strong>Related Posts</strong>
+  <i class="material-icons right">link</i>
+{% endblock %}
+
+{% block widget_body %}
+  <ul class="widget-list">
+  {%- for link_id in related_link_ids -%}
+    <li>
+      {% set ids = archives | keys %}
+      {%- for id in ids -%}
+
+        {%- if link_id == id -%}
+        <a href="{{ archives[id].url | url }}"
+          >{{ archives[id].title }}</a>
+        {%- endif -%}
+
+      {%- endfor -%}
+    </li>
+  {{ end }}
+  {%- endfor -%}
+  </ul>
+{% endblock %}
+

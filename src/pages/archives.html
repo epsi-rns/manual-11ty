@@ -1,0 +1,16 @@
+---
+layout    : archives
+title     : Archives by Month
+eleventyExcludeFromCollections: true
+
+pagination:
+  data: collections.posts
+  size: 10
+  alias: posts
+
+permalink: pages/archives/{{ pagination.pageNumber | pagerIt }}
+
+showPagination : true
+---
+
+{% include "index/by-month.njk" %}

@@ -1,0 +1,22 @@
+{#
+https://timeago.org/
+That way the time ago is updated dynamically as time passes,
+as opposed to having to rebuild Hugo every day.
+
+http://www.zachstronaut.com/posts/2009/01/20/php-relative-date-time-string.html
+#}
+
+    <time datetime="{{ page.date | date() }}" 
+          itemprop="datePublished">
+    <span class="timeago" datetime="{{ page.date | date('Y-MM-DD hh:mm:ss') }}">
+    </span></time>
+    &nbsp; 
+
+    <script src="{{ "/assets/js/timeago.min.js" | url }}"></script>
+    <script type="text/javascript">
+      var timeagoInstance = timeago();
+      var nodes = document.querySelectorAll('.timeago');
+      timeagoInstance.render(nodes, 'en_US');
+      timeago.cancel();
+      timeago.cancel(nodes[0]);
+    </script>

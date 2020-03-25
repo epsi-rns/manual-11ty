@@ -1,0 +1,24 @@
+---
+permalink: pages/index.json
+
+# okitavera said:
+#   use raw to avoid collision with nunjucks
+#   {% raw %}{{% endraw %}
+#   {% raw %}}{% endraw %}
+---
+
+{%- set posts = collections.posts -%}
+{%- set postCount = posts.length -%}
+{%- set cursor = 1 -%}
+
+{
+  {% for post in posts %}
+    "{{ post.date | date('YYMMDDmm') }}": {
+      "title": "{{ post.data.title }}",
+      "url":   "{{ post.url }}"
+    }
+    {%-if cursor != postCount %},{% endif -%}
+    {%-set cursor = cursor + 1 %}
+  {% endfor %}
+}
+

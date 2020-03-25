@@ -1,0 +1,10 @@
+{% extends "layouts/columns-double.njk" %}
+
+{% block main_color %}pink{% endblock %}
+
+{% block aside %}
+  <aside class="col s12 m4">
+    {% include "widget/recent-post.njk" %}
+    {% include "widget/tags.njk" %}
+  </aside>
+{% endblock %}

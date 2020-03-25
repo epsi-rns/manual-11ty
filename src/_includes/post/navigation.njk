@@ -1,0 +1,29 @@
+
+{% set posts = collections.postsPrevNext %}
+
+{% for post in posts %}
+  {% if (post.url == page.url) %}
+  <div class="p-b-10">
+
+    <!-- Previous Page. -->
+    {% if post.data.previous %}
+      <span class="left">
+      <a href="{{ post.data.previous.url | url }}"
+         title="{{ post.data.previous.title }}">
+        <i class="material-icons left">chevron_left</i>Previous</a>
+      </span>
+    {% endif %}
+
+    {% if post.data.next %}
+      <span class="right">
+      <a href="{{ post.data.next.url | url }}" 
+         title="{{ post.data.next.title }}">
+        <i class="material-icons right">chevron_right</i>Next</a>
+      </span>
+    {% endif %}
+
+  <div class="clearfix"></div>
+
+  </div>
+  {% endif %}
+{% endfor %}

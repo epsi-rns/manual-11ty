@@ -1,0 +1,16 @@
+---
+layout    : index
+title     : Blog List
+eleventyExcludeFromCollections: true
+
+pagination:
+  data: collections.posts
+  size: 2
+  alias: posts
+
+permalink: pages/{{ pagination.pageNumber | pagerIt }}
+
+showPagination : true
+---
+
+{% include "index/blog-list.njk" %}

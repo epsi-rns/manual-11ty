@@ -1,0 +1,86 @@
+$screen-xs: 0;
+$screen-xs2: 320px;
+$screen-xs3: 380px;
+$screen-xs4: 440px;
+$screen-sm:  576px;
+$screen-sm2: 600px;
+$screen-md:  768px;
+$screen-lg:  992px;
+$screen-xl:  1200px;
+
+ul.pagination {
+
+  li.first,  
+  li.last,
+  li.stop-icon-first,
+  li.stop-icon-last,
+  li.pages-indicator {
+    display: none;
+  }
+
+  li.pagination--offset-1,
+  li.pagination--offset-2,
+  li.pagination--offset-3,
+  li.pagination--offset-4,
+  li.pagination--offset-5,
+  li.pagination--offset-6,
+  li.pagination--offset-7 {
+    display: none;
+  }
+
+  @media only screen and (min-width: $screen-xs) {
+
+  }
+  
+  @media only screen and (min-width: $screen-xs2) {
+    li.pages-indicator {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: $screen-xs3) {
+    li.pagination--offset-1 {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and (min-width: $screen-xs4) {
+    li.pagination--offset-2 {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: $screen-sm) {
+    li.first,
+    li.last,
+    li.pagination--offset-3 {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and (min-width: $screen-sm2) {
+    li.stop-icon-first,
+    li.stop-icon-last,
+    li.pagination--offset-4 {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: $screen-md) {
+    li.pagination--offset-5,
+    li.pagination--offset-6 {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: $screen-lg) {
+    li.pagination--offset-7 {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: $screen-xl) {
+  }
+
+}
+

@@ -1,0 +1,1203 @@
+
+{
+  
+    "/frontend/2019/10/21/semantic-ui-overview/": {
+      "title": "Semantic UI - Overview",
+      "content": "Experimental Semantic UI Material Design, step by step.",
+      "url": " /frontend/2019/10/21/semantic-ui-overview/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/10/11/postcss-loop-spacing-class/": {
+      "title": "PostCSS - Loop - Spacing Class",
+      "content": "Step by step demonstration of postcss loop capability to generate margin and padding classes.",
+      "url": " /frontend/2019/10/11/postcss-loop-spacing-class/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/10/04/less-conditional-color-class/": {
+      "title": "Less - Conditional - Color Class",
+      "content": "Step by step demonstration of lessjs conditional capability to generate materialize color classes.",
+      "url": " /frontend/2019/10/04/less-conditional-color-class/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/10/03/less-loop-spacing-class/": {
+      "title": "Less - Loop - Spacing Class",
+      "content": "Step by step demonstration of lessjs loop capability to generate margin and padding classes.",
+      "url": " /frontend/2019/10/03/less-loop-spacing-class/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/code/2019/09/04/progressive-tax-tariff-04/": {
+      "title": "Haskell - Tax Tariff - Part Four",
+      "content": "Progressive Tax Rate Formula in Haskell. Back to original calculation, while maintaining the challenge.",
+      "url": " /code/2019/09/04/progressive-tax-tariff-04/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2019/09/03/progressive-tax-tariff-03/": {
+      "title": "Haskell - Tax Tariff - Part Three",
+      "content": "Progressive Tax Rate Formula in Haskell. The alternative calculation, with the help from list, maximum, and dark art. The result is compact code, but not very intuitive.",
+      "url": " /code/2019/09/03/progressive-tax-tariff-03/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2019/09/02/progressive-tax-tariff-02/": {
+      "title": "Haskell - Tax Tariff - Part Two",
+      "content": "Progressive Tax Rate Formula in Haskell. The alternative calculation, derived using math, boiled in a pan, with ugly code as result.",
+      "url": " /code/2019/09/02/progressive-tax-tariff-02/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2019/09/01/progressive-tax-tariff-01/": {
+      "title": "Haskell - Tax Tariff - Part One",
+      "content": "Progressive Tax Rate Formula in Haskell. My first attempt, the intuitive code, with the help from guard, recursive and friendly spirit.",
+      "url": " /code/2019/09/01/progressive-tax-tariff-01/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/ssg/2019/08/01/jekyll-overview/": {
+      "title": "Jekyll - Overview",
+      "content": "Building Jekyll Site Step by step, with Bulma as stylesheet frontend, featuring Material Design.",
+      "url": " /ssg/2019/08/01/jekyll-overview/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/07/01/11ty-overview/": {
+      "title": "Eleventy - Overview",
+      "content": "Building Eleventy Site Step by step, with Materialize as stylesheet frontend.",
+      "url": " /ssg/2019/07/01/11ty-overview/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2019/06/21/sass-loop-spacing-class/": {
+      "title": "Sass - Loop - Spacing Class",
+      "content": "Step by step demonstration of sass loop capability to generate margin and padding classes.",
+      "url": " /frontend/2019/06/21/sass-loop-spacing-class/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/06/11/bulma-md-overview/": {
+      "title": "Frankenbulma - Overview",
+      "content": "Experimental Bulma Material Design, step by step.",
+      "url": " /frontend/2019/06/11/bulma-md-overview/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/06/01/materialize-overview/": {
+      "title": "Materialize - Overview",
+      "content": "Designing real world web page using Materialize, step by step.",
+      "url": " /frontend/2019/06/01/materialize-overview/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2019/05/30/hexo-summary/": {
+      "title": "Hexo - Summary",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Summary of article series.",
+      "url": " /ssg/2019/05/30/hexo-summary/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/29/deploy-netlify/": {
+      "title": "Netlify - Deploying",
+      "content": "Deploying Pages on Netlify for Dummies.",
+      "url": " /ssg/2019/05/29/deploy-netlify/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/28/hexo-meta-seo/": {
+      "title": "Hexo - Meta - SEO",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Flexible meta SEO with Hexo, w3c, opengraph and twitter, that can be set with params.",
+      "url": " /ssg/2019/05/28/hexo-meta-seo/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/27/hexo-syntax-highlighting/": {
+      "title": "Hexo - Content - Syntax Highlighting",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. A few method to highlight code.",
+      "url": " /ssg/2019/05/27/hexo-syntax-highlighting/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/26/hexo-content-html/": {
+      "title": "Hexo - Content - Raw HTML",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Inserting Raw HTML content. Before, after, and in the middle.",
+      "url": " /ssg/2019/05/26/hexo-content-html/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/25/hexo-content-markdown/": {
+      "title": "Hexo - Content - Markdown",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. The real markdown content.",
+      "url": " /ssg/2019/05/25/hexo-content-markdown/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/24/hexo-content-post/": {
+      "title": "Hexo - Content - Blog Post",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. More about blog post content, Header, Footer, and Pagination.",
+      "url": " /ssg/2019/05/24/hexo-content-post/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/23/hexo-pagination-filtering-caveat/": {
+      "title": "Hexo - Pagination - Filtering Caveat",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Knowing the limit of this pagination feature..",
+      "url": " /ssg/2019/05/23/hexo-pagination-filtering-caveat/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/23/hexo-pagination-handling-url/": {
+      "title": "Hexo - Pagination - Handling URL",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Handling URL using Embedded Javascript (EJS).",
+      "url": " /ssg/2019/05/23/hexo-pagination-handling-url/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/22/hexo-pagination-screenreader/": {
+      "title": "Hexo - Pagination - Screen Reader",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Accessability for pagination using Bulma. Complete the custom pagination. This the summary code for our pagination.",
+      "url": " /ssg/2019/05/22/hexo-pagination-screenreader/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/21/hexo-pagination-responsive/": {
+      "title": "Hexo - Pagination - Responsive",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Responsive pagination using Bulma. Not so for dummies.",
+      "url": " /ssg/2019/05/21/hexo-pagination-responsive/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/20/hexo-pagination-indicator/": {
+      "title": "Hexo - Pagination - Indicator",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Middle pagination. Not so for dummies. Combined with Indicator.",
+      "url": " /ssg/2019/05/20/hexo-pagination-indicator/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/19/hexo-pagination-logic/": {
+      "title": "Hexo - Pagination - Logic",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Reverse engineering of Glenn McComb Pagination using Math and Table.",
+      "url": " /ssg/2019/05/19/hexo-pagination-logic/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/19/hexo-pagination-adjacent/": {
+      "title": "Hexo - Pagination - Adjacent",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Advance pagination. Not so for dummies.",
+      "url": " /ssg/2019/05/19/hexo-pagination-adjacent/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/18/hexo-pagination-navigation/": {
+      "title": "Hexo - Pagination - Navigation",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Add Navigation to pagination, along with number inside one list tag.",
+      "url": " /ssg/2019/05/18/hexo-pagination-navigation/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/18/hexo-pagination-number/": {
+      "title": "Hexo - Pagination - Number",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Pagination for dummies, list all of page.",
+      "url": " /ssg/2019/05/18/hexo-pagination-number/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/17/hexo-pagination-simple/": {
+      "title": "Hexo - Pagination - Simple",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Pagination for dummies, a simple start for beginner.",
+      "url": " /ssg/2019/05/17/hexo-pagination-simple/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/17/hexo-pagination-intro/": {
+      "title": "Hexo - Pagination - Introduction",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. An introduction to pagination for dummies.",
+      "url": " /ssg/2019/05/17/hexo-pagination-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/16/hexo-ejs-data/": {
+      "title": "Hexo - EJS - Data",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Using data feature, from simply static to dynamic one.",
+      "url": " /ssg/2019/05/16/hexo-ejs-data/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/15/hexo-ejs-widget/": {
+      "title": "Hexo - EJS - Widget",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Miscellanous range loop to achieved wordpress like side panel widget. Also using bulma.",
+      "url": " /ssg/2019/05/15/hexo-ejs-widget/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/14/hexo-ejs-custom-output/": {
+      "title": "Hexo - EJS - Custom Content Type",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. More about blog archive example, from just html, to custom content output such as json, text and yaml.",
+      "url": " /ssg/2019/05/14/hexo-ejs-custom-output/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/13/hexo-ejs-section-list-layout/": {
+      "title": "Hexo - EJS - Section List Layout",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Refactoring special page, Index, Archive, Category, and Tag.",
+      "url": " /ssg/2019/05/13/hexo-ejs-section-list-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/12/hexo-ejs-custom-page-layout/": {
+      "title": "Hexo - EJS - Custom Page Layout",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Refactoring custom page, making more layout. And produce nice looks, for categories and tags.",
+      "url": " /ssg/2019/05/12/hexo-ejs-custom-page-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/11/hexo-ejs-custom-page-intro/": {
+      "title": "Hexo - EJS - Custom Page Introduction",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Create custom page to create landing page, and terms list.",
+      "url": " /ssg/2019/05/11/hexo-ejs-custom-page-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/10/hexo-ejs-section-list-intro/": {
+      "title": "Hexo - EJS - Section List Introduction",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Produce list for special page sections, Archive, Category, Tags.",
+      "url": " /ssg/2019/05/10/hexo-ejs-section-list-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/08/hexo-bulma-sass-layout/": {
+      "title": "Hexo - Bulma - SASS Layout",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Apply SASS in Hexo theme.",
+      "url": " /ssg/2019/05/08/hexo-bulma-sass-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/07/hexo-bulma-sass-intro/": {
+      "title": "Hexo - Bulma - SASS Introduction",
+      "content": "Building Hexo Step by step, with Bulma as stylesheet frontend. Apply SASS in Hexo theme.",
+      "url": " /ssg/2019/05/07/hexo-bulma-sass-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/06/hexo-bulma-css-layout/": {
+      "title": "Hexo - Bulma - CSS Layout",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Explain How to Use Bulma Stylesheet in Hexo.",
+      "url": " /ssg/2019/05/06/hexo-bulma-css-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/05/hexo-bulma-css-intro/": {
+      "title": "Hexo - Bulma - CSS Introduction",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Explain How to Use Bulma Stylesheet in Hexo.",
+      "url": " /ssg/2019/05/05/hexo-bulma-css-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/04/hexo-layout/": {
+      "title": "Hexo - Layout",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Show Minimalist Layout in Hexo.",
+      "url": " /ssg/2019/05/04/hexo-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/03/hexo-minimal/": {
+      "title": "Hexo - Minimal",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Show Minimal Homepage in Hexo.",
+      "url": " /ssg/2019/05/03/hexo-minimal/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/02/hexo-install/": {
+      "title": "Hexo - Install",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Show Minimal Homepage in Hexo.",
+      "url": " /ssg/2019/05/02/hexo-install/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/05/01/hexo-overview/": {
+      "title": "Hexo - Overview",
+      "content": "Building Hexo Site Step by step, with Bulma as stylesheet frontend. Overview of article series.",
+      "url": " /ssg/2019/05/01/hexo-overview/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/25/hugo-conclusion/": {
+      "title": "Hugo - Conclusion",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Conclusion of all the articles. The journey end here.",
+      "url": " /ssg/2019/04/25/hugo-conclusion/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/21/hugo-sass-content/": {
+      "title": "Hugo - Blog Post",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. More about blog post content, Header, Footer, and Pagination.",
+      "url": " /ssg/2019/04/21/hugo-sass-content/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/19/hugo-bulma-pagination/": {
+      "title": "Hugo - Pagination",
+      "content": "A step by step creation process for dummies, to achieve custom Hugo pagination, with Bulma as stylesheet frontend.",
+      "url": " /ssg/2019/04/19/hugo-bulma-pagination/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/15/hugo-data/": {
+      "title": "Hugo - Data",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Using data feature, from simply static to dynamic one.",
+      "url": " /ssg/2019/04/15/hugo-data/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/14/hugo-widget/": {
+      "title": "Hugo - Widget",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Miscellanous range loop to achieved wordpress like side panel widget. Also using bulma.",
+      "url": " /ssg/2019/04/14/hugo-widget/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/13/hugo-custom-output/": {
+      "title": "Hugo - Custom Content Type",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. More about blog archive example, from just html, to custom content output such as json, text and yaml.",
+      "url": " /ssg/2019/04/13/hugo-custom-output/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/12/hugo-archive/": {
+      "title": "Hugo - Archive",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Create blog archive, a site wide content list, for all specific page kind named post.",
+      "url": " /ssg/2019/04/12/hugo-archive/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/11/hugo-taxonomy/": {
+      "title": "Hugo - Taxonomy",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Create custom taxonomy terms layout and also taxonomy detail layout.",
+      "url": " /ssg/2019/04/11/hugo-taxonomy/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/10/hugo-section-list/": {
+      "title": "Hugo - Section List",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Building content, and produce list for section.",
+      "url": " /ssg/2019/04/10/hugo-section-list/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/08/hugo-bulma-sass-layout/": {
+      "title": "Hugo - Bulma - SASS Layout",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Apply SASS in Hugo theme.",
+      "url": " /ssg/2019/04/08/hugo-bulma-sass-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/07/hugo-bulma-sass-intro/": {
+      "title": "Hugo - Bulma - SASS Introduction",
+      "content": "Building Hugo Step by step, with Bulma as stylesheet frontend. Apply SASS in Hugo theme.",
+      "url": " /ssg/2019/04/07/hugo-bulma-sass-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/06/hugo-bulma-css-layout/": {
+      "title": "Hugo - Bulma - CSS Layout",
+      "content": "Building Hugo Site Step by step, with Bulma as stylesheet frontend. Explain How to Use Bulma Stylesheet in Hugo.",
+      "url": " /ssg/2019/04/06/hugo-bulma-css-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/05/hugo-bulma-css-intro/": {
+      "title": "Hugo - Bulma - CSS Introduction",
+      "content": "Building Hugo Site Step by step, with Bulma as stylesheet frontend. Explain How to Use Bulma Stylesheet in Hugo.",
+      "url": " /ssg/2019/04/05/hugo-bulma-css-intro/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/03/hugo-layout/": {
+      "title": "Hugo - Layout",
+      "content": "Building Hugo Site Step by step, with Bulma as stylesheet frontend. Show Minimalist Layout in Hugo.",
+      "url": " /ssg/2019/04/03/hugo-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/02/hugo-minimal/": {
+      "title": "Hugo - Minimal",
+      "content": "Building Hugo Site Step by step, with Bulma as stylesheet frontend. Show Minimal Homepage in Hugo.",
+      "url": " /ssg/2019/04/02/hugo-minimal/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/04/01/hugo-overview/": {
+      "title": "Hugo - Overview",
+      "content": "Building Hugo Site Step by step, with Bulma as stylesheet frontend. Summary of article series.",
+      "url": " /ssg/2019/04/01/hugo-overview/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2019/03/10/bulma-sass-helpers/": {
+      "title": "Bulma SASS - Helpers",
+      "content": "More about custom theme, step by step. Getting tools not available in Bulma.",
+      "url": " /frontend/2019/03/10/bulma-sass-helpers/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/09/bulma-sass-post/": {
+      "title": "Bulma SASS - Post",
+      "content": "More about custom theme, step by step. Focusing on content page.",
+      "url": " /frontend/2019/03/09/bulma-sass-post/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/08/bulma-sass-panels/": {
+      "title": "Bulma SASS - Widget",
+      "content": "More about custom theme, step by step. Custom sass for each part of the layout.",
+      "url": " /frontend/2019/03/08/bulma-sass-panels/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/07/bulma-sass-layout/": {
+      "title": "Bulma SASS - Responsive Layout",
+      "content": "More about custom theme, step by step. Separate Page Layout using Bulma.",
+      "url": " /frontend/2019/03/07/bulma-sass-layout/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/06/bulma-sass-custom/": {
+      "title": "Bulma SASS - Custom Class",
+      "content": "More about custom theme, step by step. Make custom class based on Bulma class.",
+      "url": " /frontend/2019/03/06/bulma-sass-custom/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/05/bulma-sass-theme/": {
+      "title": "Bulma SASS - Inside a Theme",
+      "content": "More about custom theme, step by step. Miscellanous knowledge before you make your custom theme.",
+      "url": " /frontend/2019/03/05/bulma-sass-theme/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/04/bulma-sass-intro/": {
+      "title": "Bulma SASS - Introduction",
+      "content": "Make custom theme, step by step. Using Bulma SASS for the first time",
+      "url": " /frontend/2019/03/04/bulma-sass-intro/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/03/bulma-navbar/": {
+      "title": "Bulma - Navigation Bar",
+      "content": "Make custom theme, step by step. Regular navigation bar in Bulma in Depth.",
+      "url": " /frontend/2019/03/03/bulma-navbar/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/02/bulma-minimal/": {
+      "title": "Bulma - Minimal",
+      "content": "Make custom theme, step by step. Show minimal page in Bulma.",
+      "url": " /frontend/2019/03/02/bulma-minimal/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/03/01/bulma-overview/": {
+      "title": "Bulma - Overview",
+      "content": "Designing real world web page using Bulma, step by step. Summary of article series.",
+      "url": " /frontend/2019/03/01/bulma-overview/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/02/09/css-layout-fake-table/": {
+      "title": "CSS Layout - Fake Table",
+      "content": "CSS Fake Table Layout is not the right method to make basic layout with pure CSS for modern browser.",
+      "url": " /frontend/2019/02/09/css-layout-fake-table/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/02/07/css-layout-calc/": {
+      "title": "CSS Layout - Float with Calc",
+      "content": "CSS Float for Layout is belong to the past, however this calc method is still considerably good to make basic layout with pure CSS.",
+      "url": " /frontend/2019/02/07/css-layout-calc/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/02/05/css-layout-grid/": {
+      "title": "CSS Layout - Grid System",
+      "content": "CSS Grid Layout had been a standardized method to make basic layout with pure CSS for modern browser.",
+      "url": " /frontend/2019/02/05/css-layout-grid/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/02/03/css-layout-flex/": {
+      "title": "CSS Layout - Flex",
+      "content": "CSS Flex Layout give you flexibility to make basic layout with pure CSS for modern browser.",
+      "url": " /frontend/2019/02/03/css-layout-flex/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/02/01/css-layout-overview/": {
+      "title": "CSS Layout - Overview",
+      "content": "CSS layout with pure CSS has evolved from time to time.",
+      "url": " /frontend/2019/02/01/css-layout-overview/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/01/23/windows-choco-sass/": {
+      "title": "Windows - Chocolatey - Sass",
+      "content": "Windows can have powerful command line environment using chocolatey package manager and cmder terminal. Sass can make use of these tools, to make you feels like home. Mimicing linux environment.",
+      "url": " /frontend/2019/01/23/windows-choco-sass/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2019/01/21/windows-choco-hugo/": {
+      "title": "Windows - Chocolatey - Hugo",
+      "content": "Windows can have powerful command line environment using chocolatey package manager and cmder terminal. Hugo can make use of these tools, to make you feels like home. Mimicing linux environment.",
+      "url": " /ssg/2019/01/21/windows-choco-hugo/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2019/01/15/sass-task-runner/": {
+      "title": "Sass - Task Runner",
+      "content": "Transform Sass into CSS using Task Runner such as Gulp and Grunt. And bundler such as Webpack.",
+      "url": " /frontend/2019/01/15/sass-task-runner/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2019/01/13/sass-common-compiler/": {
+      "title": "Sass - Common Implementation",
+      "content": "Transform Sass into CSS using Sass compiler. At least there are three common implementation.",
+      "url": " /frontend/2019/01/13/sass-common-compiler/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2019/01/08/jekyll-pagination-screenreader/": {
+      "title": "Jekyll Pagination - Screenreader",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. Accessability for pagination using Bootstrap. Complete the custom pagination. This the summary code for our pagination.",
+      "url": " /ssg/2019/01/08/jekyll-pagination-screenreader/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/07/jekyll-pagination-responsive/": {
+      "title": "Jekyll Pagination - Responsive",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. Responsive pagination using Bootstrap. Not so for dummies.",
+      "url": " /ssg/2019/01/07/jekyll-pagination-responsive/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/06/jekyll-pagination-indicator/": {
+      "title": "Jekyll Pagination - Indicator",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. Middle pagination. Not so for dummies. Combined with Indicator.",
+      "url": " /ssg/2019/01/06/jekyll-pagination-indicator/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/05/jekyll-pagination-adjacent/": {
+      "title": "Jekyll Pagination - Adjacent",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. Advance pagination. Not so for dummies. With complex logic.",
+      "url": " /ssg/2019/01/05/jekyll-pagination-adjacent/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/04/jekyll-pagination-number/": {
+      "title": "Jekyll Pagination - Number",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. Pagination for dummies, list all of page.",
+      "url": " /ssg/2019/01/04/jekyll-pagination-number/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/03/jekyll-pagination-simple/": {
+      "title": "Jekyll Pagination - Simple",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. A simple introduction.",
+      "url": " /ssg/2019/01/03/jekyll-pagination-simple/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2019/01/01/jekyll-pagination-summary/": {
+      "title": "Jekyll Pagination - Summary",
+      "content": "Building Jekyll Pagination Step by Step, using Bootstrap. This is the summary page.",
+      "url": " /ssg/2019/01/01/jekyll-pagination-summary/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/12/15/hugo-javascript-search/": {
+      "title": "Hugo - Javacript - lunr Search",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Javascript example in Hugo. Search Page with lunrjs.",
+      "url": " /ssg/2018/12/15/hugo-javascript-search/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/12/10/hugo-service/": {
+      "title": "Hugo - Service",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Example of common service.",
+      "url": " /ssg/2018/12/10/hugo-service/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/12/07/hugo-meta-opengraph/": {
+      "title": "Hugo - Meta - Opengraph SEO",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Flexible meta SEO with Hugo, w3c, opengraph and twitter, that can be set with params.",
+      "url": " /ssg/2018/12/07/hugo-meta-opengraph/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/12/05/hugo-syntax-highlighting/": {
+      "title": "Hugo - Syntax Highlighting",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. A few method to highlight code.",
+      "url": " /ssg/2018/12/05/hugo-syntax-highlighting/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/26/hugo-html-content/": {
+      "title": "Hugo - Content - Raw HTML",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Inserting Raw HTML content. Before, after, and in the middle.",
+      "url": " /ssg/2018/11/26/hugo-html-content/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/25/hugo-markdown-content/": {
+      "title": "Hugo - Content - Markdown",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. The real markdown content.",
+      "url": " /ssg/2018/11/25/hugo-markdown-content/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/24/hugo-bootstrap-content/": {
+      "title": "Hugo - Bootstrap - Blog Post",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. More about blog post content, Header, Footer, and Pagination.",
+      "url": " /ssg/2018/11/24/hugo-bootstrap-content/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/22/hugo-pagination-screenreader/": {
+      "title": "Hugo - Pagination - Screen Reader",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Accessability for pagination using Bootstrap. Complete the custom pagination. This the summary code for our pagination.",
+      "url": " /ssg/2018/11/22/hugo-pagination-screenreader/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/21/hugo-pagination-responsive/": {
+      "title": "Hugo - SASS - Pagination - Responsive",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Responsive pagination using Bootstrap. Not so for dummies.",
+      "url": " /ssg/2018/11/21/hugo-pagination-responsive/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/20/hugo-pagination-indicator/": {
+      "title": "Hugo - Pagination - Indicator",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Middle pagination. Not so for dummies. Combined with Indicator.",
+      "url": " /ssg/2018/11/20/hugo-pagination-indicator/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/19/hugo-pagination-adjacent/": {
+      "title": "Hugo - Pagination - Adjacent",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Advance pagination. Not so for dummies.",
+      "url": " /ssg/2018/11/19/hugo-pagination-adjacent/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/18/hugo-pagination-number/": {
+      "title": "Hugo - Pagination - Number",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Pagination for dummies, list all of page.",
+      "url": " /ssg/2018/11/18/hugo-pagination-number/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/11/17/hugo-pagination-simple/": {
+      "title": "Hugo - Pagination - Simple",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Pagination for dummies, a simple introduction.",
+      "url": " /ssg/2018/11/17/hugo-pagination-simple/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/15/hugo-data/": {
+      "title": "Hugo - Data",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Using data feature, from simply static to dynamic one.",
+      "url": " /ssg/2018/09/15/hugo-data/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/14/hugo-sidebar/": {
+      "title": "Hugo - Widget",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Miscellanous range loop to achieved wordpress like sidebar. Also using bootstrap.",
+      "url": " /ssg/2018/09/14/hugo-sidebar/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/13/hugo-custom-output/": {
+      "title": "Hugo - Custom Content Type",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. More about blog archive example, from just html, to custom content output such as json, text and yaml.",
+      "url": " /ssg/2018/09/13/hugo-custom-output/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/12/hugo-archive/": {
+      "title": "Hugo - Archive",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Create blog archive, a site wide content list, for all specific page kind named post.",
+      "url": " /ssg/2018/09/12/hugo-archive/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/11/hugo-taxonomy/": {
+      "title": "Hugo - Taxonomy",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Create custom taxonomy terms layout and also taxonomy detail layout.",
+      "url": " /ssg/2018/09/11/hugo-taxonomy/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/10/hugo-section-list/": {
+      "title": "Hugo - Section List",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Building content, and produce list for section.",
+      "url": " /ssg/2018/09/10/hugo-section-list/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/08/hugo-bootstrap-sass-custom/": {
+      "title": "Hugo - Bootstrap - SASS Customization",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Add common bootstrap sass customization",
+      "url": " /ssg/2018/09/08/hugo-bootstrap-sass-custom/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/07/hugo-bootstrap-sass/": {
+      "title": "Hugo - Bootstrap - SASS",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Changing Bootstrap Color with Sass in Hugo theme.",
+      "url": " /ssg/2018/09/07/hugo-bootstrap-sass/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/06/hugo-bootstrap-components/": {
+      "title": "Hugo - Bootstrap - Components",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Use Bootstrap Features in Hugo Layout.",
+      "url": " /ssg/2018/09/06/hugo-bootstrap-components/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/05/hugo-bootstrap-layout/": {
+      "title": "Hugo - Bootstrap - Layout",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Explain How to Use Bootstrap in Hugo.",
+      "url": " /ssg/2018/09/05/hugo-bootstrap-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/03/hugo-layout/": {
+      "title": "Hugo - Layout",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Show Minimalist Layout in Hugo.",
+      "url": " /ssg/2018/09/03/hugo-layout/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/02/hugo-minimal/": {
+      "title": "Hugo - Minimal",
+      "content": "Building Hugo Step by step, with Bootstrap as stylesheet frontend. Show Minimal Homepage in Hugo.",
+      "url": " /ssg/2018/09/02/hugo-minimal/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/09/01/hugo-summary/": {
+      "title": "Hugo - Summary",
+      "content": "Building Hugo Site Step by step, with Bootstrap as stylesheet frontend. Summary of article series.",
+      "url": " /ssg/2018/09/01/hugo-summary/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2018/08/15/git-hosting/": {
+      "title": "Git Pages - Deploying",
+      "content": "Hosting on Github Pages for Dummies.",
+      "url": " /ssg/2018/08/15/git-hosting/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2018/08/10/bootstrap-cli-rvm-bundle/": {
+      "title": "Bootstrap - Install Jekyll on RVM",
+      "content": "Step by step install bootstrap v4.1 on localhost, using Jekyll bundle on RVM.",
+      "url": " /frontend/2018/08/10/bootstrap-cli-rvm-bundle/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2018/08/09/bootstrap-cli-offline/": {
+      "title": "Bootstrap - Offline Template Examples",
+      "content": "Get a local copy of bootstrap template examples, using no server.",
+      "url": " /frontend/2018/08/09/bootstrap-cli-offline/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2018/02/21/jekyll-basic/": {
+      "title": "Jekyll - Step by Step",
+      "content": "Building jekyll Step by step. When you are done with install, this is what to do.",
+      "url": " /ssg/2018/02/21/jekyll-basic/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/code/2018/01/29/telegram-bot-loop-manual/": {
+      "title": "Telegram Bot - Manual Page",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH script. No webhook in BASH series.",
+      "url": " /code/2018/01/29/telegram-bot-loop-manual/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/28/telegram-bot-loop-makefile/": {
+      "title": "Telegram Bot - Makefile",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH script. No webhook in BASH series.",
+      "url": " /code/2018/01/28/telegram-bot-loop-makefile/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/26/telegram-bot-loop-bash-04/": {
+      "title": "Telegram Bot - BASH Group Tools",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH script. No webhook in BASH series.",
+      "url": " /code/2018/01/26/telegram-bot-loop-bash-04/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/24/telegram-bot-loop-bash-03/": {
+      "title": "Telegram Bot - BASH Option Argument",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH script. No webhook in BASH series.",
+      "url": " /code/2018/01/24/telegram-bot-loop-bash-03/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/23/telegram-bot-loop-bash-02/": {
+      "title": "Telegram Bot - BASH Script",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH script. No webhook in BASH series.",
+      "url": " /code/2018/01/23/telegram-bot-loop-bash-02/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/22/telegram-bot-loop-bash-01/": {
+      "title": "Telegram Bot - BASH CLI",
+      "content": "How to be a Bashful Bot in Telegram. Using loop with BASH command. No webhook in BASH series.",
+      "url": " /code/2018/01/22/telegram-bot-loop-bash-01/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/21/telegram-bot-token/": {
+      "title": "Telegram Bot - Getting Token",
+      "content": "Getting Telegram Token from @botfather.",
+      "url": " /code/2018/01/21/telegram-bot-token/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2018/01/20/telegram-bot-overview/": {
+      "title": "Telegram Bot - Overview",
+      "content": "Telegram Bot Summary",
+      "url": " /code/2018/01/20/telegram-bot-overview/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/frontend/2018/01/13/bootstrap-cli-part-three/": {
+      "title": "Bootstrap CLI Webtools - Part Three",
+      "content": "Embracing CSS Bootstrap Backend By CLI Webtools. Playing around with CSS Bootstrap Backend, using bower, grunt, composer, gemfile, sass, all in command line interface.",
+      "url": " /frontend/2018/01/13/bootstrap-cli-part-three/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2018/01/12/bootstrap-cli-part-two/": {
+      "title": "Bootstrap CLI Webtools - Part Two",
+      "content": "Embracing CSS Bootstrap Backend By CLI Webtools. Playing around with CSS Bootstrap Backend, using bower, grunt, composer, gemfile, sass, all in command line interface.",
+      "url": " /frontend/2018/01/12/bootstrap-cli-part-two/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2018/01/11/bootstrap-cli-part-one/": {
+      "title": "Bootstrap CLI Webtools - Part One",
+      "content": "Embracing CSS Bootstrap Backend By CLI Webtools. Playing around with CSS Bootstrap Backend, using bower, grunt, composer, gemfile, sass, all in command line interface.",
+      "url": " /frontend/2018/01/11/bootstrap-cli-part-one/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/frontend/2018/01/10/bootstrap-cli-summary/": {
+      "title": "Bootstrap CLI Webtools - Summary",
+      "content": "Embracing CSS Bootstrap Backend By CLI Webtools. Playing around with CSS Bootstrap Backend, using bower, grunt, composer, gemfile, sass, all in command line interface.",
+      "url": " /frontend/2018/01/10/bootstrap-cli-summary/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2018/01/06/ekyll-opensuse-install/": {
+      "title": "Jekyll Installation on openSUSE",
+      "content": "Installing Jekyll on openSUSE is easy and straightforward This article also cover installing RVM on openSUSE.",
+      "url": " /ssg/2018/01/06/ekyll-opensuse-install/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/backend/2017/07/05/lamp-stack-evolution/": {
+      "title": "The LAMP Stack Evolution",
+      "content": "This is a not so serious LAMP guidance for blogger.",
+      "url": " /backend/2017/07/05/lamp-stack-evolution/",
+      "author": "epsi",
+      "category": "backend"
+    },
+    "/code/2017/05/24/examining-bind-04/": {
+      "title": "Examining Bind in Haskell: Do Notation",
+      "content": "Monadic Operator. Walking the Monad code by code. Yet another Monad Tutorial.",
+      "url": " /code/2017/05/24/examining-bind-04/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/23/examining-bind-03/": {
+      "title": "Examining Bind in Haskell: Example using Number",
+      "content": "Bind >>= operator and friends. More example if you wish.",
+      "url": " /code/2017/05/23/examining-bind-03/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/22/examining-bind-02/": {
+      "title": "Examining Bind in Haskell: Hello World",
+      "content": "Uncover the mysterious bind >>= operator in Haskell without dark magic.",
+      "url": " /code/2017/05/22/examining-bind-02/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/21/explaining-monad-01/": {
+      "title": "Explaining Monad: References",
+      "content": "Some Book of Witch written by Wizards.",
+      "url": " /code/2017/05/21/explaining-monad-01/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/20/explaining-monad-00/": {
+      "title": "Explaining Monad: Overview",
+      "content": "Breaking the curse, of the unexplainable Monad.",
+      "url": " /code/2017/05/20/explaining-monad-00/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/15/haskell-loop-with-map-03/": {
+      "title": "Loop in Haskell With Map, Part Three",
+      "content": "There is no loop in Haskell. Haskell designed that way. This is an example for beginner on how to compose function beyon loop iteration.",
+      "url": " /code/2017/05/15/haskell-loop-with-map-03/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/14/haskell-loop-with-map-02/": {
+      "title": "Loop in Haskell With Map, Part Two",
+      "content": "There is no loop in Haskell. Haskell designed that way. This is an example for beginner on how to iterate over hash (dictionary).",
+      "url": " /code/2017/05/14/haskell-loop-with-map-02/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/13/haskell-loop-with-map-01/": {
+      "title": "Loop in Haskell With Map, Part One",
+      "content": "There is no loop in Haskell. Haskell designed that way. This is an example for beginner on how to iterate over array (list).",
+      "url": " /code/2017/05/13/haskell-loop-with-map-01/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/code/2017/05/12/haskell-loop-with-map-00/": {
+      "title": "Loop in Haskell With Map, Overview",
+      "content": "Overview of doing loop in Haskell.",
+      "url": " /code/2017/05/12/haskell-loop-with-map-00/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/ssg/2016/12/04/jekyll-directory-structure/": {
+      "title": "Jekyll Directory Structure",
+      "content": "This section shows how flexible Jekyll Directory is. If you came from framework. You are going to love it. Basically it is just folders and files management, inside Jekyll.",
+      "url": " /ssg/2016/12/04/jekyll-directory-structure/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/design/inkscape/inkscape-logo-03-coloring/": {
+      "title": "Inkscape Logo Creation Part Three",
+      "content": "Complete Detail Sample of Logo Creation. Last Part, of Three Articles.",
+      "url": " /design/inkscape/inkscape-logo-03-coloring/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-logo-02-making-shape-example/": {
+      "title": "Inkscape Logo Creation Part Two",
+      "content": "Complete Detail Sample of Logo Creation. Middle Part, of Three Articles.",
+      "url": " /design/inkscape/inkscape-logo-02-making-shape-example/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-logo-01-preparing-document/": {
+      "title": "Inkscape Logo Creation Part One",
+      "content": "Complete Detail Sample of Logo Creation. First Part, of Three Articles.",
+      "url": " /design/inkscape/inkscape-logo-01-preparing-document/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-text-feature/": {
+      "title": "Inkscape: Text Feature",
+      "content": "Inkscape text feature with cool free downloadble template as a sample.",
+      "url": " /design/inkscape/inkscape-text-feature/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-flat-isometric-wallpaper/": {
+      "title": "Inkscape: Flat Wallpaper with Isometric Looks",
+      "content": "Let's make an Inkscape Wallpaper. It is actually a 2D Flat Style, with help of 3D Isometric Projection.",
+      "url": " /design/inkscape/inkscape-flat-isometric-wallpaper/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/ssg/2016/08/13/jekyll-sidemenu-without-javascript/": {
+      "title": "Jekyll Collapsed Sidemenu Without Javascript",
+      "content": "My tutorial template require a sidebar menu with tree capability. Using Liquid template we will have all tree node collapsed, except for the current url, th tree should be opened.",
+      "url": " /ssg/2016/08/13/jekyll-sidemenu-without-javascript/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/08/12/jekyll-sidemenu-simpletree/": {
+      "title": "Jekyll Sidemenu Simple Tree",
+      "content": "My tutorial template require a sidebar menu with tree capability. Using Liquid template we will have all tree node collapsed, except for the current url, th tree should be opened.",
+      "url": " /ssg/2016/08/12/jekyll-sidemenu-simpletree/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/08/11/jekyll-responsive-sidemenu/": {
+      "title": "Jekyll Responsive Side Menu",
+      "content": "One of the challenge in maintaining blogsite is creating design template for each use case. for my tutorial template, I need a left sidebar menu using bootstrap framework with a button toggle to display or hide this sidebar menu.",
+      "url": " /ssg/2016/08/11/jekyll-responsive-sidemenu/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/06/23/jekyll-debian-install/": {
+      "title": "Jekyll Installation on Debian",
+      "content": "Since Jekyll is available in Official Debian repository, Jekyll Installation on Debian is Easy. Just issue this command to install system wide Jekyll gem, and Debian will take care of Jekyll's dependencies.",
+      "url": " /ssg/2016/06/23/jekyll-debian-install/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/06/22/jekyll-arch-install/": {
+      "title": "Jekyll Installation on Arch/Manjaro",
+      "content": "Installing Jekyll on Arch based distribution is a little bit tricky. Jekyll built on top of Ruby Gems. Ruby gems in Arch Linux can be installed per user or system wide. The official guidance, do not apply well in Arch Linux. So we need a little more detail, on how we suppose to do it in Arch Linux.",
+      "url": " /ssg/2016/06/22/jekyll-arch-install/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2016/06/14/how-a-webcoder-begin/": {
+      "title": "Step by Step Guidance to be a Webcoder",
+      "content": "How do a Webcoder Begin ? Between HTML, Javascript, PHP, CSS? Always start with Plain HTML, then HTML+CSS, You can learn Client Side or Server Side later.",
+      "url": " /frontend/2016/06/14/how-a-webcoder-begin/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2016/06/12/jekyll-liquid-time-elapsed/": {
+      "title": "Elapsed Time, Yet Another Jekyll Liquid Port",
+      "content": "It is common in a blog, not to write the calendar date of the post, but rather elapsed time (e.g some time ago). I'm writing new liquid script for use in Jekyll.",
+      "url": " /ssg/2016/06/12/jekyll-liquid-time-elapsed/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/frontend/2016/06/10/stripes-to-decorate-blog-post/": {
+      "title": "Create Stripes Using Inkscape to Decorate Blog Post",
+      "content": "I'm thinking of giving different color variation for each post. The idea is there are 12 months in a year, and there are rgb (red, green, blue) colors, both contain combination of three number. You can see how easy it is. I don't even think about what color, or any aesthetic aspects. It simply math.",
+      "url": " /frontend/2016/06/10/stripes-to-decorate-blog-post/",
+      "author": "epsi",
+      "category": "frontend"
+    },
+    "/ssg/2016/06/09/jekyll-post-archives-without-plugin/": {
+      "title": "Jekyll Post Archives Without Plugin",
+      "content": "Blog Archives is very common in Wordpress. It is also available in Jekyll in many ways. Blog Archives can be achieved without plugin. You can make your own custom archives, that is more suitable for your project. Here is my custom liquid archives script that you can modify for your own.",
+      "url": " /ssg/2016/06/09/jekyll-post-archives-without-plugin/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/05/29/jekyll-related-posts-without-plugin/": {
+      "title": "Jekyll Related Posts Without Plugin",
+      "content": "Related Posts in a Blog is very common in Wordpress. CMS require a database access to create 'Related Posts' feature. Database table, can be simulated using _data yml/json/csv format.",
+      "url": " /ssg/2016/05/29/jekyll-related-posts-without-plugin/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/ssg/2016/05/14/jekyll-blog-overview/": {
+      "title": "Jekyll Blog Overview",
+      "content": "Installing Jekyll is something cool. Having an example of working site is something else.",
+      "url": " /ssg/2016/05/14/jekyll-blog-overview/",
+      "author": "epsi",
+      "category": "ssg"
+    },
+    "/code/2016/05/14/haskell-dollar-syntax/": {
+      "title": "How Haskell Syntax can Make Your Code Cleaner",
+      "content": "Haskell syntatic sugar is somehow weird. But once you get the idea, you are going to love it. Dollar $ infix operator can be your favorite one.",
+      "url": " /code/2016/05/14/haskell-dollar-syntax/",
+      "author": "epsi",
+      "category": "code"
+    },
+    "/design/inkscape/inkscape-anti-corruption-movement/": {
+      "title": "Inkscape: Anti Corruption Movement",
+      "content": "A collection of inkscape vector for anti corruption movement.",
+      "url": " /design/inkscape/inkscape-anti-corruption-movement/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-isometric-infographics/": {
+      "title": "Inkscape: Isometric Infographics",
+      "content": "A collection of inkscape 3D isometric vector. That anybody can download and use it freely. Step by step.",
+      "url": " /design/inkscape/inkscape-isometric-infographics/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-discussion-flyer/": {
+      "title": "Inkscape: Another Discussion e-Flyer",
+      "content": "A not good inkscape flyer design. But you can still download and use it freely.",
+      "url": " /design/inkscape/inkscape-discussion-flyer/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/backend/2015/10/16/lamp-stack-manjaro-openrc/": {
+      "title": "Setup LAMP stack with Manjaro OpenRC",
+      "content": "This is a serious guidance for those setting LAMP in a not so very common environment. While most blog using systemd, MySQL and apt-get. This guidance show OpenRC, MariaDB and Pacman.",
+      "url": " /backend/2015/10/16/lamp-stack-manjaro-openrc/",
+      "author": "epsi",
+      "category": "backend"
+    },
+    "/design/inkscape/inkscape-object-clip/": {
+      "title": "Inkscape: Object Clip",
+      "content": "Combining photograph and test with object clip is fun. Even if your photography skill sucks, you can still make a good impression.",
+      "url": " /design/inkscape/inkscape-object-clip/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-stamp-poster-flyer/": {
+      "title": "Multipurpose Design Based on Stamp Ornament Box",
+      "content": "A multipurpose inkscape vector artwork. That anybody can download and use it freely. From basic stamp border, you can use it as poster, e-flyer, executive summary cover, certificate.",
+      "url": " /design/inkscape/inkscape-stamp-poster-flyer/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-vexel-face-tracing/": {
+      "title": "Inkscape: Vexel Face Tracing",
+      "content": "Curious about doing Vexel in Inkscape? Yes, it can be done! Although as an amateur I can't make it smoother yet.",
+      "url": " /design/inkscape/inkscape-vexel-face-tracing/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-stamp-logo/": {
+      "title": "Inkscape: Logo with Stamp Ornament",
+      "content": "An inkscape vector artwork. That anybody can download and use it freely. Nice to have it as avatar background, or put it as a stamp in your picture while travelling.",
+      "url": " /design/inkscape/inkscape-stamp-logo/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-invitation-stock/": {
+      "title": "Inkscape: Event Invitation Stock Image",
+      "content": "An elegant inkscape vector image stock. That anybody can download and use it freely. Nice to have it as an event invitation.",
+      "url": " /design/inkscape/inkscape-invitation-stock/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-event-banners/": {
+      "title": "Inkscape: Event Banner Collection",
+      "content": "A collection of inkscape vector designs with printing press targeting. That anybody can download and use it freely. A collection of banners with varying size ratio for your event!",
+      "url": " /design/inkscape/inkscape-event-banners/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-event-schedule/": {
+      "title": "Inkscape: Event Schedule Announcement",
+      "content": "Two sample inkscape vector templates, for event schedule announcement. That anybody can download and use it freely.",
+      "url": " /design/inkscape/inkscape-event-schedule/",
+      "author": "epsi",
+      "category": "design"
+    },
+    "/design/inkscape/inkscape-non-standard-makara/": {
+      "title": "Inkscape: Non Standard Alumni Logo",
+      "content": "An inkscape vector alumni logo variant. That anybody can download and use it freely. Designed by hierarcial scope, university, faculty, department, and even by region.",
+      "url": " /design/inkscape/inkscape-non-standard-makara/",
+      "author": "epsi",
+      "category": "design"
+    }
+}
+
+

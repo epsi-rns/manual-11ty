@@ -1,0 +1,16 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'grey' %}
+
+{% block widget_header %}
+  <strong>Car Painting and Body Repair</strong>
+  <i class="material-icons right">directions_car</i>
+{% endblock %}
+
+{% block widget_body %}
+  <div class="center-align">
+    <a href="http://oto-spies.info/">
+      <img src="{{ "/assets/images/adverts/oto-spies-01.png" | url }}"
+           alt="Oto Spies"></a>
+  </div>
+{% endblock %}

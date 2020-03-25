@@ -1,0 +1,49 @@
+
+
+  <div class="post-list">
+  {%- for post in posts  -%}
+    <div class="archive p-b-10">
+    <div class="meta-item p-10 hoverable">
+
+      <strong><a class="meta_link brown-text text-darken-3" 
+        href="{{ post.url | url }}">{{ post.data.title }}
+      </strong></a>
+
+      <div class="meta">
+        <div class="meta_time left">
+          <i class="material-icons left">access_time</i>
+          <time datetime="{{ post.date | date() }}">
+          {{ post.date | date('MMM D, Y') }}</time>
+        </div>      
+        <div class="right" id="meta_tags">
+          {%- for tag in post.data.tags  -%}
+            {%- set tagUrl %}/tags/{{ tag }}/{% endset -%}
+            <a href="{{ tagUrl | url }}">
+              <span class="new brown badge z-depth-1 hoverable"
+              data-badge-caption="">{{ tag }}</span></a>
+          {%- endfor -%}
+        </div>
+      </div> 
+
+      <div class="clearfix"></div>
+
+      <div>
+      {% if post.data.excerpt %}
+        {{ post.data.excerpt }}
+      {% else %}
+        {% excerpt post %}
+      {% endif %}
+      </div>
+
+      <div class="">
+        <a href="{{ post.url | url }}" 
+           class="waves-effect waves-light btn-small
+                  brown hoverable m-b-5">
+             <i class="material-icons right">chevron_right</i>
+             Read More&nbsp;
+        </a>
+      </div>
+
+    </div></div>
+  {%- endfor -%}
+  </div>

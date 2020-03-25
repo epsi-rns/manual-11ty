@@ -1,0 +1,44 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+{%- set color %}{% block main_color %}blue{% endblock %}{% endset -%}
+
+  <main role="main" class="col s12">
+    <section class="index-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header {{ color }} lighten-5">
+        {% block blog_header %}
+          <div class="main_title"> 
+            <h4 class="blog-post-title" itemprop="name headline">
+              <a href="{{ page.url | url }}">
+                {{ renderData.title or title or metadata.title }}
+              </a></h4>
+          </div>
+        {% endblock %}
+        </section>
+
+        {%- if showPagination -%}
+        <section class="center-align" itemprop="pagination">
+          {% block pagination %}
+          {% include "pagination/05-responsive.njk" %}
+          {% endblock %}
+        </section>
+        {%- endif -%}
+
+        <section class="blog-index" itemprop="ItemList">
+          {{ content | safe }}
+        </section>
+
+      </div>
+    </section>
+  </main>
+{% endblock %}
+
+{% block pagination_all %}  
+  {% include "pagination/01-simple.njk" %}
+  {% include "pagination/02-number.njk" %}
+  {% include "pagination/03-adjacent.njk" %}
+  {% include "pagination/04-indicator.njk" %}
+  {% include "pagination/05-responsive.njk" %}
+{% endblock %}

@@ -1,0 +1,56 @@
+  {%- set posts = posts | mapdate  -%}
+  {%- set groupByYear = posts | groupBy('year') | dictsort | reverse -%}
+
+  {%- for year, postsInYear in groupByYear -%}
+  <div class="archive p-b-5">
+
+    <div class ="anchor-target archive-year p-b-5" 
+         id="{{ year }}">
+      {%- if year == (metadata.now | date("Y")) -%}
+        <strong>This year's posts ({{ year }})</strong>
+      {%- else -%}
+        <strong>{{ year }}</strong>
+      {%- endif -%}
+    </div>
+
+    {%- set groupByMonth = postsInYear | groupBy('month') -%}
+    {%- set groupByMonth = groupByMonth | dictsort | reverse -%}
+
+    <div class="row">
+    {%- for month, postsInMonth in groupByMonth -%}
+      <div class="col s12 m6 l4">
+
+    <div class="widget white z-depth-1 hoverable m-5">
+      <div class="widget-header {{ color }} lighten-4">
+
+        <div class ="archive-month" 
+             id="{{ year }}-{{ month }}">
+          {{ postsInMonth[0].monthtext }}</div>
+
+      </div>
+      <div class="widget-body">
+
+        <div class="archive-list">
+          {%- for post in postsInMonth | sort(false, true, 'month') -%}
+          <div class="archive-item">
+            <div class="left"><a href="{{ post.url | url }}">
+              {{ post.data.title }}
+            </a></div>
+            <div class="right right-align"><time>
+              {{ post.date | date('DD MMM') }}
+              <i class="material-icons right">access_time</i>
+            </time></div>
+            <div class="clearfix"></div>
+          </div>
+          {%- endfor -%}
+        </div>
+
+      </div>
+    </div>
+
+      </div>
+    {%- endfor -%}
+    </div>
+    
+  </div>
+  {%- endfor -%}

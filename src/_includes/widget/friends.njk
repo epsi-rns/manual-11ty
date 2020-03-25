@@ -1,0 +1,20 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'pink' %}
+
+{% block widget_header %}
+  <strong>Isle of Friends</strong>
+  <i class="material-icons right">face</i>
+{% endblock %}
+
+{% block widget_body %}
+  {% set links = friends | shuffle | limit(5) %}
+
+  <ul class="widget-list">
+    {%- for friend in links -%}
+    <li><a href="http://epsi-rns.gitlab.io{{ friend.url }}"
+      >{{ friend.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+{% endblock %}
+

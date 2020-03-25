@@ -1,0 +1,54 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'green' %}
+
+{% block widget_header %}
+  <strong>Archives</strong>
+  <i class="material-icons right">next_week</i>
+{% endblock %}
+
+{% block widget_body %}
+
+  {% set posts = collections.posts %}
+  {% set page_year = page.date | date('Y')  %}
+  {% set page_month = page.date | date('MM')  %}
+
+  {%- set posts = posts | mapdate  -%}
+  {%- set groupByYear = posts | groupBy('year') | dictsort | reverse -%}
+
+  {%- for year, postsInYear in groupByYear -%}
+      <div class ="archive-year p-t-5" id="{{ year }}">
+        <a href="{{ "/pages/archives" | url }}#{{ year }}">
+        {{ year }}</a>
+      </div>
+
+      {%- if year == page_year -%}
+        {%- set groupByMonth = postsInYear | groupBy('month') -%}
+        {%- set groupByMonth = groupByMonth | dictsort | reverse -%}
+
+        <ul class="widget-archive m-t-0">
+        {%- for month, postsInMonth in groupByMonth -%}
+          <li class="list-month">
+            <span id="{{ year }}-{{ month }}">
+                  <a href="{{ "/pages/archives" | url }}#{{ year }}-{{ month }}">
+                  {{ month }}</a> - {{ year }}</span>
+          </li>
+
+          {%- if month == page_month -%}
+            <ul class="widget-list">
+            {%- for post in postsInMonth | sort(false, true, 'month') -%}
+
+            <li>
+              <a href="{{ post.url | url }}">
+                {{ post.data.title }}
+              </a>
+            </li>
+            {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        {%- endfor -%}
+        </ul>
+      {%- endif -%}
+  {%- endfor -%}
+
+{% endblock %}

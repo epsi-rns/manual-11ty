@@ -1,0 +1,173 @@
+{% set totalPages = pagination.links.length %}
+{% set current    = pagination.pageNumber + 1 %}
+
+{# 
+* Pagination links 
+* https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/
+* Adjacent: Number of links either side of the current page
+#}
+
+{% if totalPages > 1 %}
+  {% set adjacentLinks = 2 %}
+  {% set maxLinks      = (adjacentLinks * 2) + 1 %}
+  {% set lowerLimit    = 1 + adjacentLinks %}
+  {% set upperLimit    = totalPages - adjacentLinks %}
+
+  <ul class="pagination">  
+    <!-- First Page. -->    
+    {% if current  > 1 %}
+      <li class="stop-icon-first waves-effect">
+        <a href="{{ pagination.firstPageLink | url }}" rel="first"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">first_page</i>
+      </a></li>
+    {% else %}
+      <li class="stop-icon-first disabled">
+        <a title="This is the first page">
+          <i class="material-icons">first_page</i>
+      </a></li>
+    {% endif %}
+
+    <!-- Previous Page. -->
+    {% if pagination.previousPageLink %}
+      <li class="waves-effect">
+        <a href="{{ pagination.previousPageLink | url }}" rel="prev"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">chevron_left</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the first page">
+        <i class="material-icons">chevron_left</i>
+      </a></li>
+    {% endif %}
+
+    {% if (totalPages > maxLinks) %}
+      <!-- First Page. -->
+      {% if (current - adjacentLinks > 1) %}
+      <li class="waves-effect">
+        <a href="{{ pagination.firstPageLink | url }}"
+           aria-label="Goto page 1">1</a>
+      </li>
+      {% endif %}
+
+      <!-- Early (More Pages) Indicator. -->
+      {% if (current - adjacentLinks > 2) %}
+      <li class="pages-indicator disabled">&hellip;</li>
+      {% endif %}
+    {% endif %}
+
+    <!-- Page numbers. -->
+    {% for cursor, link in pagination.links | hashIt %}
+      {% set showCursorFlag = false %}
+
+      {% if (totalPages > maxLinks) %}
+        <!-- Complex page numbers. -->
+
+        <!-- Lower limit pages. -->
+        <!-- If the user is on a page which is in the lower limit.  -->
+        {% if (current <= lowerLimit) %}
+
+          <!-- If the current loop page is less than max_links. -->
+          {% if (cursor <= maxLinks) %}
+            {% set showCursorFlag = true %}
+          {% endif %}
+
+        <!-- Upper limit pages. -->
+        <!-- If the user is on a page which is in the upper limit. -->
+        {% elif (current >= upperLimit) %}
+
+          <!-- If the current loop page is greater than total pages minus $max_links -->
+          {% if (cursor > (totalPages - maxLinks)) %}
+            {% set showCursorFlag = true %}
+          {% endif %}
+
+        <!-- Middle pages. -->
+        {% else %}
+          
+          {% if ( (cursor >= current - adjacentLinks) 
+              and (cursor <= current + adjacentLinks) ) %}
+            {% set showCursorFlag = true %}
+          {% endif %}
+
+        {% endif %}
+
+      {% else %}
+        <!-- Simple page numbers. -->
+        {% set showCursorFlag = true %}
+      {% endif %}
+
+      {% if showCursorFlag %}
+        <!-- Calculate Offset Class. -->
+        {% set offset = (cursor - current) | abs %}
+        {% set pageOffsetClass = 'pagination--offset-' + offset %}
+
+        <!-- Show Pager. -->
+        {% if cursor != current  %}
+
+        <li class="waves-effect {{ pageOffsetClass }}">
+          <a href="{{ link | url }}"
+             aria-label="Goto page {{ cursor }}"
+             class="{{ color }}-text text-darken-2">
+            {{ cursor }}
+          </a>
+        </li>
+
+        {% else %}
+
+        <li class="active {{ color }}">
+          <a aria-label="Page {{ cursor }}">
+            {{ cursor }}
+          </a>
+        </li>
+
+        {% endif %}
+      {% endif %}
+
+    {% endfor %}
+
+    {% if (totalPages > maxLinks) %}
+      <!-- Late (More Pages) Indicator. -->
+      {% if (current + adjacentLinks < totalPages - 1)  %}
+      <li class="pages-indicator disabled">&hellip;</li>
+      {% endif %}
+
+      <!-- Last Page. -->
+      {% if (current + adjacentLinks < totalPages) %}
+      <li class="waves-effect">
+        <a href="{{ pagination.lastPageLink | url }}"
+           aria-label="Goto page {{ totalPages }}"
+          >{{ totalPages }}</a>
+      </li>
+      {% endif %}
+    {% endif %}
+
+    <!-- Next Page. -->
+    {% if pagination.nextPageLink %}
+      <li class="waves-effect">
+        <a href="{{ pagination.nextPageLink | url }}" rel="next"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">chevron_right</i>
+      </a></li>
+    {% else %}
+      <li class="disabled">
+        <a title="This is the last page">
+          <i class="material-icons">chevron_right</i>
+      </a></li>
+    {% endif %}
+
+    <!-- Last Page. -->
+    {% if current != totalPages %}
+      <li class="stop-icon-last waves-effect">
+        <a href="{{ pagination.lastPageLink | url }}" rel="last"
+           class="{{ color }}-text text-darken-2">
+          <i class="material-icons">last_page</i>
+      </a></li>
+    {% else %}
+      <li class="stop-icon-last disabled">
+        <a title="This is the last page">
+          <i class="material-icons">last_page</i>
+      </a></li>
+    {% endif %}
+  </ul>
+{% endif %}

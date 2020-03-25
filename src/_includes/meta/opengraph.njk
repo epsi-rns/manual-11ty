@@ -1,0 +1,36 @@
+
+  {%- if opengraphimage -%}
+    {%- set ogi = opengraphimage -%}
+  {%- elif layout == "post" -%}
+    {%- set ogi = metadata.opengraph.postimage -%}
+  {%- else -%}
+    {%- set ogi = metadata.opengraph.image -%}
+  {%- endif -%}
+
+  <meta property="og:image"
+        content="{{ metadata.site }}{{ ogi }}">
+  <meta property="og:locale"
+        content="{{ metadata.opengraph.languageCode }}">
+  <meta property="og:title"
+        content="{{ renderData.title or title or metadata.title }}">
+  {% if layout == "post" %}
+  <meta property="og:type"
+        content="article">
+  {% endif %}
+  {%- if excerpt %}
+  <meta property="og:description"
+        content="{{ excerpt }}">
+  {% endif %}
+  <meta property="og:url"
+        content="{{ metadata.site }}{{ page.url }}">
+  <meta property="og:site_name"
+        content="{{ metadata.title }}">
+
+  <meta property="og:latitude"
+        content="{{ metadata.opengraph.latitude }}"/>
+  <meta property="og:longitude"
+        content="{{ metadata.opengraph.longitude }}"/>
+  <meta property="og:locality"
+        content="{{ metadata.opengraph.locality }}"/>
+  <meta property="og:country-name"
+        content="{{ metadata.opengraph.countryName }}"/>

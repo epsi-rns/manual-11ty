@@ -1,0 +1,17 @@
+{% extends "layouts/widget.njk" %}
+
+{% set color = 'lime' %}
+
+{% block widget_header %}
+  <strong>Recent Post</strong>
+  <i class="material-icons right">av_timer</i>
+{% endblock %}
+
+{% block widget_body %}
+  {% set posts = collections.posts | limit(5) %}
+  <ul class="widget-list">
+    {%- for post in posts -%}
+    <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+{% endblock %}

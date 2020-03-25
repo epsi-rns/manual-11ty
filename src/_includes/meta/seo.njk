@@ -1,0 +1,16 @@
+
+  {%- if (author or metadata.author) %}
+  <meta name="author"
+        content="{{ (author or metadata.author) }}">
+  {% endif -%}
+
+  {%- if excerpt %}
+  <meta name="description"
+        content="{{ excerpt }}">
+  {% endif -%}
+
+  {%- set keywordlist = tags  | keyJoin(keywords) -%}
+  {%- if keywordlist %}    
+  <meta name="keywords"
+        content="{{ keywordlist }}">
+  {% endif -%}

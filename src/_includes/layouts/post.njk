@@ -1,0 +1,68 @@
+{% extends "layouts/columns-double.njk" %}
+
+{% block custom_stylesheet %}
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/prism.css" | url }}">
+{% endblock %}
+
+{% block main_color %}blue{% endblock %}
+
+{% block main %}
+  {% set color = 'blue' %}
+
+  <main role="main" class="col s12 m8">
+    <section class="main-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header {{ color }} lighten-5">
+          {% include "post/header.njk" %}
+        </section>
+
+        <article class="blog-body responsive-img" itemprop="articleBody">
+          {% if toc %}
+            {% include toc %}
+          {% endif %}
+
+          {{ content | safe }}
+
+          {% include "post/navigation.njk" %}
+        </article>
+
+        <section class="blog-footer {{ color }} lighten-5">
+          {% include "post/footer.njk" %}
+          {# include "service/disqus-comments.html" #}
+        </section>
+
+      </div>
+    </section>
+  </main>
+{% endblock %}
+
+{% block aside %}
+  <aside class="col s12 m4">
+    {%- if related_link_ids -%}
+      {% include "widget/related-post.njk" %}
+    {%- endif -%}
+
+    {% include "widget/archives.njk" %}
+    {% include "widget/tags.njk" %}
+  </aside>
+{% endblock %}
+
+{% block aside_widget_all %}
+  <aside class="col s12 m4">
+    {% include "widget/tags.njk" %}
+    {% include "widget/archives.njk" %}
+    {% include "widget/recent-post.njk" %}
+    
+    {%- if related_link_ids -%}
+      {% include "widget/related-post.njk" %}
+    {%- endif -%}
+
+    {% include "widget/friends.njk" %}
+    {% include "widget/archives-gitlab.njk" %}
+
+    {% include "widget/oto-spies.njk" %}
+    {% include "widget/affiliates.njk" %}
+  </aside>
+{% endblock %}

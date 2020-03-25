@@ -1,0 +1,81 @@
+// Responsive Image
+
+.responsive-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+// gap main and aside
+
+.blog {
+  padding: 0px;
+}
+
+
+.blog-header,
+.blog-footer {
+  padding: 5px 10px 5px 10px;
+}
+
+.blog-index,
+.blog-body {
+  padding: 5px 10px 5px 10px;
+}
+
+.widget {
+  padding: 0px;
+}
+
+.widget-header {
+  padding: 5px 10px 5px 10px;
+}
+
+.widget-body {
+  padding: 5px 10px 5px 10px;
+}
+
+// decoration
+
+.index-wrapper,
+.main-wrapper,
+.aside-wrapper {
+  padding: 0 10px 0 10px;
+}
+
+// responsive
+
+.main-wrapper,
+.aside-wrapper {
+  margin-bottom: 20px;
+}
+
+@media #{$medium-and-up} {
+  .main-wrapper {
+    margin-right: 10px;
+  }
+  .aside-wrapper {
+    margin-left: 10px;
+  }
+}
+
+// same height column
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media #{$medium-and-up} {
+  .flex .main,
+  .flex .aside {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex .blog,
+  .flex .main-wrapper {
+    height: 100%;
+  }
+}
+

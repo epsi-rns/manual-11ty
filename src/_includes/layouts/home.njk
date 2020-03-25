@@ -1,0 +1,16 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  {% set color = 'blue-grey' %}
+  <main role="main" class="col s12 m12">
+    <section class="index-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <article class="blog-body" itemprop="articleBody">
+          {{ content | safe }}
+        </article>
+
+      </div>
+    </section>
+  </main>
+{% endblock %}

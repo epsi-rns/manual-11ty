@@ -1,0 +1,68 @@
+  <!-- Dropdown Structure -->
+  <ul id="archives-dropdown"
+      class="dropdown-content grey lighten-3">
+    <li><a class="grey-text text-darken-4"
+           href="{{ "/tags/" | url }}">
+        <i class="material-icons">label</i>
+        Tags</a></li>
+    <li class="divider grey-text text-darken-4"></li>
+    <li><a class="grey-text text-darken-4"
+           href="{{ "/pages/archives/" | url }}">
+        <i class="material-icons">history</i>
+        Chronology</a></li>
+  </ul>
+
+  <!-- Burger Menu Structure -->
+  <ul class="sidenav grey lighten-3" id="mobile-demo">
+        <li><a class="grey-text text-darken-4"
+               href="{{ "/pages/" | url }}">
+            <i class="material-icons left">home</i>
+            Blog</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger grey-text text-darken-4"
+               href="#" 
+               data-target="archives-dropdown">
+               <i class="material-icons left">archive</i>
+               Archives
+               <i class="material-icons right">arrow_drop_down</i>
+             </a></li>
+        <li><a class="grey-text text-darken-4"
+               href="{{ "/pages/about/" | url }}">
+            <i class="material-icons left">face</i>
+            About</a></li>
+  </ul>
+
+  <!-- header -->
+  <nav class="maxwidth white hoverable">
+    <div class="nav-wrapper">
+      <a class="brand-logo left grey-text text-lighten-3"
+         href="{{ "/" | url }}" >
+        <img src="{{ "/assets/images/logo-gear.png" | url }}"
+           alt="Home" />
+      </a>
+      <a class="sidenav-trigger right grey-text text-darken-4"
+         href="#"
+         data-target="mobile-demo">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right">
+        <li><a class="grey-text text-darken-4"
+               href="{{ "/pages/" | url }}">
+            <i class="material-icons left hide-on-small-only">home</i>
+            Blog</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger grey-text text-darken-4"
+               href="#" 
+               data-target="archives-dropdown">
+               <i class="material-icons left hide-on-small-only">archive</i>
+               Archives
+               <i class="material-icons right">arrow_drop_down</i>
+             </a></li>
+        <li class="hide-on-small-only">
+            <a class="grey-text text-darken-4"
+               href="{{ "/pages/about/" | url }}">
+               <i class="material-icons left hide-on-small-only">face</i>
+               About</a></li>
+      </ul>
+    </div>
+  </nav>

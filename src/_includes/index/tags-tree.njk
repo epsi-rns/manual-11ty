@@ -1,0 +1,44 @@
+
+<div class="row">
+{%- for tag in collections.tagList -%}
+  {%- set postsList = collections[ tag ] -%}
+  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+
+  <div class="col s12 m6 l4">
+    <div class="widget white z-depth-1 hoverable m-5">
+      <div class="widget-header {{ color }} lighten-4">
+
+        <div id="{{ tag | slug }}" class ="anchor-target">
+          <i class="material-icons left">local_offer</i>
+          Tag: 
+          <a href="{{ tagUrl | url }}">
+          {{ tag }} </a>
+        </div>
+        <div class="clearfix"></div>
+
+      </div>
+      <div class="widget-body">
+
+        <div class="archive-list p-l-25 p-b-5">
+        {%- for post in postsList -%}
+        <div class="archive-item meta-item">
+          <div class="meta_link right-align">
+            <time class="meta_time right"
+                  datetime="{{ post.date | date() }}">
+              {{ post.date | date('MMM DD, Y') }}
+              <i class="material-icons right">access_time</i></time>
+          </div>
+          <div class="left"><a href="{{ post.url | url }}">
+            {{ post.data.title }}
+          </a></div>
+          <div class="clearfix"></div>
+        </div>
+        {%- endfor -%}
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  {%- endfor -%}
+</div>

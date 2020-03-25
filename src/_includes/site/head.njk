@@ -1,0 +1,13 @@
+
+  {% include "meta/html.njk" %}
+  <title>{{ renderData.title or title or metadata.title }}</title>
+
+  <!-- Stylesheet -->
+  <link type="text/css" rel="stylesheet" media="screen,projection"
+        href="{{ "/assets/css/materialize.css" | url }}">
+  <link type="text/css" rel="stylesheet"
+        href="{{ "/assets/css/main.css" | url }}">
+
+  {% include "meta/seo.njk" %}
+  {% include "meta/opengraph.njk" %}
+  {% include "meta/twitter.njk" %}

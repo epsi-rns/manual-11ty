@@ -1,0 +1,19 @@
+
+  {% set color = 'blue' %}
+
+  {%- for tag in collections.tagList -%}
+    {%- set postsList = collections[ tag ] -%}
+    {%- set listCount = postsList.length -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+
+    {% if listCount %}
+      <a href="{{ tagUrl | url }}">
+        <span class="new {{ color }} darken-4 badge
+                     z-depth-1 hoverable m-b-5" 
+              data-badge-caption="{{ tag }}"
+          ><strong>{{ listCount }}</strong></span>
+      </a>
+    {% endif %}
+  {%- endfor -%}
+  
+  <div class="clearfix"></div>

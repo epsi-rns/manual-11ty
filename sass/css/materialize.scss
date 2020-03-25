@@ -1,0 +1,10 @@
+// dart-sass --watch -I . sass/css:static/css/ --style=compressed --no-source-map
+// grunt release 
+
+@charset "UTF-8";
+
+// Color
+@import "sass/vendors/components/color-variables";
+@import "variables";
+@import "sass/vendors/materialize";
+ 

@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+{%- set color %}{% block main_color %}blue{% endblock %}{% endset -%}
+
+  <main role="main" class="col s12 m8">
+    <section class="main-wrapper {{ color }}">
+      <div class="blog white z-depth-3 hoverable">
+
+        <section class="blog-header {{ color }} lighten-5">
+        {% block blog_header %}
+          <div class="main_title"> 
+            <h4 class="blog-post-title" itemprop="name headline">
+              <a href="{{ page.url | url }}">
+                {{ renderData.title or title or metadata.title }}
+              </a></h4>
+          </div>
+        {% endblock %}
+        </section>
+
+        <article class="blog-body" itemprop="articleBody">
+          {{ content | safe }}
+        </article>
+
+      </div>
+    </section>
+  </main>
+{% endblock %}
+
+{% block aside %}
+{%- set color %}{% block aside_color %}green{% endblock %}{% endset -%}
+
+  <aside class="col s12 m4">
+    <section class="aside-wrapper {{ color }}">
+      <div class="widget white z-depth-3 hoverable">
+
+        <div class="widget-header {{ color }} lighten-4">
+        {% block widget_header %}
+          <strong>Side Menu</strong>
+          <i class="material-icons right">all_inclusive</i>
+        {% endblock %}
+        </div>
+
+        <div class="widget-body">
+        {% block widget_body %}
+          <p>This is a widget body.</p>
+        {% endblock %}
+        </div>
+
+      </div>
+    </section>
+  </aside>
+{% endblock %}
