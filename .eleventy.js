@@ -3,7 +3,7 @@
 
 const config = {
     // URL related
-    pathPrefix: "/circleci-11ty/",
+    pathPrefix: "/manual-11ty/",
 
     // Templating Engine
     templateFormats: [
@@ -20,7 +20,7 @@ const config = {
     passthroughFileCopy: true,
     dir: {
       input: "src",
-      output: "dist",
+      output: "_site",
       // ⚠️ These values are both relative to your input directory.
       includes: "_includes",
       data: "_data"
